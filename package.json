@@ -1,0 +1,29 @@
+{
+  "name": "fis-parser-compass",
+  "description": "A parser plugin for fis to compile sass file.",
+  "version": "0.0.1",
+  "author": {
+    "name": "qdsang",
+    "email": "qdsang@gmail.com"
+  },
+  "homepage": "https://github.com/qdsang/fis-parser-compass",
+  "keywords": [
+    "fis",
+    "sass",
+    "compass"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qdsang/fis-parser-compass.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "mocha test/ut --recursive"
+  },
+  "dependencies": {
+    "fis-sass": "0.1.10"
+  }
+}
